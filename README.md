@@ -182,6 +182,7 @@ mvn spring-boot:run
 ## 🔧 Configuration
 
 ### Environment Variables
+<<<<<<< HEAD
 **IMPORTANT**: For security, all sensitive configuration is now externalized to environment variables.
 
 #### 1. Copy Environment Template
@@ -216,6 +217,28 @@ export GOOGLE_CLIENT_SECRET="your-client-secret"
 - **JWT_SECRET**: Must be at least 32 characters long and cryptographically secure
 - **DB_PASSWORD**: Use strong, unique passwords for production
 - **Email credentials**: Use application-specific passwords, not your main account password
+=======
+Update the following in your `application.properties` files:
+
+#### Email Configuration
+```properties
+spring.mail.username=your-email@gmail.com
+spring.mail.password=your-app-password
+```
+
+#### Splunk Configuration (Optional)
+```properties
+splunk.hec.uri=https://your-splunk-instance:8088
+splunk.hec.token=your-hec-token
+splunk.hec.index=your-index
+```
+
+#### OAuth2 Configuration (Optional)
+```properties
+spring.security.oauth2.client.registration.google.client-id=your-client-id
+spring.security.oauth2.client.registration.google.client-secret=your-client-secret
+```
+>>>>>>> 9f577294761947bca3d61e2974d264adb989cd57
 
 ## 📡 API Endpoints
 
@@ -246,21 +269,28 @@ All requests should be made through the API Gateway:
 - Stateless authentication using JWT tokens
 - Token expiration and refresh mechanisms
 - Secure token validation across services
+<<<<<<< HEAD
 - **Environment-based secret key management**
+=======
+>>>>>>> 9f577294761947bca3d61e2974d264adb989cd57
 
 ### Password Security
 - BCrypt password hashing
 - Secure password storage and validation
 
+<<<<<<< HEAD
 ### Database Security
 - **SSL/TLS encryption enabled** for all database connections
 - **Environment-based credential management**
 - Secure connection parameters
 
+=======
+>>>>>>> 9f577294761947bca3d61e2974d264adb989cd57
 ### CORS Configuration
 - Configurable cross-origin resource sharing
 - Support for multiple domains and environments
 
+<<<<<<< HEAD
 ### Security Best Practices Implemented
 - ✅ **No hardcoded secrets** - All sensitive data externalized
 - ✅ **SSL/TLS encryption** - Database connections encrypted
@@ -268,6 +298,8 @@ All requests should be made through the API Gateway:
 - ✅ **Structured logging** - Security events properly logged
 - ✅ **Input validation** - All endpoints validate input data
 
+=======
+>>>>>>> 9f577294761947bca3d61e2974d264adb989cd57
 ## 📊 Monitoring and Logging
 
 ### Logging
