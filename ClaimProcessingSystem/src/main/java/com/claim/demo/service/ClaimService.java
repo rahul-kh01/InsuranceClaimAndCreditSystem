@@ -69,8 +69,9 @@ public class ClaimService {
 	@Transactional(readOnly = true)
 	public Claim findClaimById(Long claimId) {
 		Optional<Claim> claim = claimRepository.findById(claimId);
-//            .orElseThrow(() -> new RuntimeException("Claim not found with id: " + claimId));
-//        return convertToDTO(claim);
+		if (claim.isEmpty()) {
+			throw new RuntimeException("Claim not found with id: " + claimId);
+		}
 		return claim.get();
 	}
 

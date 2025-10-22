@@ -16,7 +16,11 @@ public class GatewaySecurityConfig {
 
     @Bean
     public SecretKey jwtSecretKey() {
-        return Keys.hmacShaKeyFor("secretsecretsecretsecretsecretsecretsecretsecret".getBytes());
+        String secret = System.getenv("JWT_SECRET");
+        if (secret == null || secret.isEmpty()) {
+            secret = "default-secret-key-for-development-only-change-in-production";
+        }
+        return Keys.hmacShaKeyFor(secret.getBytes());
     }
 
     @Bean

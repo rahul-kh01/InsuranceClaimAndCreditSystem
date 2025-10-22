@@ -2,6 +2,8 @@ package com.ms.credit.service;
 
 // Import necessary Spring framework and Java utility classes.
 import org.springframework.scheduling.annotation.Scheduled;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,6 +15,8 @@ import com.ms.credit.dto.CreditScoreDTO;
  */
 @Service  // Marks this class as a Spring-managed service.
 public class CreditScoreCronJobService {
+
+    private static final Logger logger = LogManager.getLogger(CreditScoreCronJobService.class);
 
     // Automatically injects CreditScoreService to access its methods.
     @Autowired
@@ -32,7 +36,7 @@ public class CreditScoreCronJobService {
                 creditScoreService.getCreditScoreByEmailId(creditScore.getUserId());
             } catch (Exception e) {
                 // Log or handle the exception if processing fails.
-                System.out.println("Error processing Credit ID: " + creditScore.getUserId() + " with error: " + e.getMessage());
+                logger.error("Error processing Credit ID: {} with error: {}", creditScore.getUserId(), e.getMessage(), e);
             }
         }
     }

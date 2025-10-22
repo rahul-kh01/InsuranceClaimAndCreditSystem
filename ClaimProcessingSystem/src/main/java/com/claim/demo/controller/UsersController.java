@@ -17,7 +17,6 @@ import com.claim.demo.entity.User;
 import com.claim.demo.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
-import java.util.Date;
 
 /**
  * REST controller for managing users.
@@ -49,7 +48,11 @@ public class UsersController {
         // Check if the user service returned a valid user
         if (user != null) {
             // Create a JWT token with configurations using jjwt library:
-            SecretKey key = Keys.hmacShaKeyFor("secretsecretsecretsecretsecretsecretsecretsecret".getBytes());
+            String secret = System.getenv("JWT_SECRET");
+            if (secret == null || secret.isEmpty()) {
+                secret = "default-secret-key-for-development-only-change-in-production";
+            }
+            SecretKey key = Keys.hmacShaKeyFor(secret.getBytes());
             String token = Jwts.builder()
                 .subject(user.getUsername())  // Set the 'subject' claim as the username
                 .expiration(new Date(System.currentTimeMillis() + 10 * 60 * 1000)) // Set expiration time to 10 minutes from now

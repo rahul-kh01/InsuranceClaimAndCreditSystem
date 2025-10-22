@@ -30,7 +30,11 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         if (header != null && header.startsWith("Bearer ")) {
             try {
                 String token = header.substring(7);
-                SecretKey key = Keys.hmacShaKeyFor("secretsecretsecretsecretsecretsecretsecretsecret".getBytes());
+                String secret = System.getenv("JWT_SECRET");
+                if (secret == null || secret.isEmpty()) {
+                    secret = "default-secret-key-for-development-only-change-in-production";
+                }
+                SecretKey key = Keys.hmacShaKeyFor(secret.getBytes());
                 Claims claims = Jwts.parser()
                     .verifyWith(key)
                     .build()

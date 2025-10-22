@@ -1,6 +1,8 @@
 package com.claim.demo.service;
 
 import org.springframework.scheduling.annotation.Scheduled;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
@@ -12,6 +14,8 @@ import com.claim.demo.entity.Claim;
 
 @Service
 public class ClaimBatchService {
+
+    private static final Logger logger = LogManager.getLogger(ClaimBatchService.class);
 
     @Autowired
     private ClaimService claimService; // Service that contains business logic for updating claims
@@ -27,7 +31,7 @@ public class ClaimBatchService {
                 claimService.updateClaimStatus(claim.getClaimId(), newStatus, claim.getEmailId());
             } catch (Exception e) {
                 // Log error or handle exception
-                System.out.println("Error processing claim ID: " + claim.getClaimId() + " with error: " + e.getMessage());
+                logger.error("Error processing claim ID: {} with error: {}", claim.getClaimId(), e.getMessage(), e);
             }
         }
     }
