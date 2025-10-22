@@ -1,0 +1,396 @@
+nohup: ignoring input
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------------< [0;36mcom.claim:demo[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding Processing 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.7.18:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mdemo[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 37 source files to /mnt/E/Project/Temp/claims/ClaimProcessingSystem/target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[3,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[4,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[12,2] cannot find symbol
+  symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[13,2] cannot find symbol
+  symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[4,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[11,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[12,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[17,2] cannot find symbol
+  symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[18,2] cannot find symbol
+  symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[14,2] cannot find symbol
+  symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[15,2] cannot find symbol
+  symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[14,2] cannot find symbol
+  symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[15,2] cannot find symbol
+  symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[12,2] cannot find symbol
+  symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[13,2] cannot find symbol
+  symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[15,6] cannot find symbol
+  symbol:   class Id
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[16,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[16,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[19,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[22,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[25,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[28,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[31,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[34,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[37,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[40,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[20,6] cannot find symbol
+  symbol:   class Id
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[21,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[21,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[24,6] cannot find symbol
+  symbol:   class ManyToOne
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[24,24] cannot find symbol
+  symbol:   variable FetchType
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[25,6] cannot find symbol
+  symbol:   class JoinColumn
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[28,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[31,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[34,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[37,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[40,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[43,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[17,6] cannot find symbol
+  symbol:   class Id
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[18,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[18,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[21,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[24,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[27,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[17,6] cannot find symbol
+  symbol:   class Id
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[18,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[18,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[21,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[24,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[27,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[30,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[15,6] cannot find symbol
+  symbol:   class Id
+  location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[16,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[16,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[19,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[22,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[25,6] cannot find symbol
+  symbol:   class Column
+  location: class com.claim.demo.entity.Notification
+[[1;34mINFO[m] 85 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.647 s
+[[1;34mINFO[m] Finished at: 2025-10-22T04:16:11+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mdemo[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[3,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[4,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[12,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[13,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[4,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[11,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[12,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[17,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[18,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[14,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[15,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[14,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[15,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[5,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[6,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[7,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[8,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[9,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[10,27] package jakarta.persistence does not exist
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[12,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Entity
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[13,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Table
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[15,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Id
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[16,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeneratedValue
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[16,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable GenerationType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[19,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[22,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[25,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[28,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[31,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[34,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[37,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/User.java:[40,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.User
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[20,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Id
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[21,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeneratedValue
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[21,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable GenerationType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[24,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ManyToOne
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[24,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable FetchType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[25,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class JoinColumn
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[28,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[31,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[34,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[37,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[40,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Claim.java:[43,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Claim
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[17,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Id
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[18,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeneratedValue
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[18,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable GenerationType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[21,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[24,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimsSummary.java:[27,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimsSummary
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[17,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Id
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[18,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeneratedValue
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[18,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable GenerationType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[21,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[24,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[27,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/ClaimReport.java:[30,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.ClaimReport
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[15,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Id
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[16,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class GeneratedValue
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[16,32] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable GenerationType
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[19,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[22,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] /mnt/E/Project/Temp/claims/ClaimProcessingSystem/src/main/java/com/claim/demo/entity/Notification.java:[25,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Column
+[[1;31mERROR[m]   location: class com.claim.demo.entity.Notification
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
